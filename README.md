@@ -1,6 +1,4 @@
 # pi day
-![alt tag](https://github.com/drJAGartner/pi_day/blob/master/happyPiDay.png)
-
 To estimate pi, we can compare the ratio of the area of a circle to a square (or in our case, a quarter circle to a square.  Examine the following image:
 
 ![alt tag](https://github.com/drJAGartner/pi_day/blob/master/numberLine.png)
@@ -12,4 +10,8 @@ to the area of the circle over the area of the square.  Mathmatically this is
 ### a_circle = pi*r^2/4 = pi/4
 ### a_square = r^2 = 1
 ### a_circle/a_square = pi/4
-### => pi = 4*(a_circle/a_square) = 4*(number of points in circle/total number of points)
+### => pi = 4\*(a_circle/a_square) = 4\*(number of points in circle/total number of points)
+
+This is pretty easy to program up using python, numpy, and matplotlib.  The following chart shows the 
+accuracy of the method when one thousand, ten thousand, and one hundred thousand points are considered.
+![alt tag](https://github.com/drJAGartner/pi_day/blob/master/happyPiDay.png)
